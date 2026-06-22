@@ -126,6 +126,8 @@ Darwin-PowerShell-Help-Desk-Toolkit
 
 ### System Information
 
+Displays computer details including operating system, CPU, RAM, boot time, and IP address.
+
 ![System Information](screenshots/01-system-information.png)
 
 ### Disk Space
