@@ -121,7 +121,6 @@ Darwin-PowerShell-Help-Desk-Toolkit
     ├── 04-network-information.png
     ├── 05-windows-updates.png
     └── 06-event-logs.png
-```
 
 ---
 
