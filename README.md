@@ -130,27 +130,47 @@ Darwin-PowerShell-Help-Desk-Toolkit
 
 Displays computer details including operating system, CPU, RAM, boot time, and IP address.
 
-![System Information](screenshots/01-system-information.png)
+![System Information](01-system-information.png)
+
+---
 
 ### Disk Space
 
-![Disk Space](screenshots/02-disk-space.png)
+Shows total, used, and free disk space for all drives.
+
+![Disk Space](02-disk-space.png)
+
+---
 
 ### Running Services
 
-![Running Services](screenshots/03-running-services.png)
+Lists currently running Windows services to assist with troubleshooting.
+
+![Running Services](03-running-services.png)
+
+---
 
 ### Network Information
 
-![Network Information](screenshots/04-network-information.png)
+Displays active network adapters and assigned IPv4 addresses.
+
+![Network Information](04-network-information.png)
+
+---
 
 ### Windows Updates
 
-![Windows Updates](screenshots/05-windows-updates.png)
+Displays recently installed Windows updates and security patches.
+
+![Windows Updates](05.windows-update.png)
+
+---
 
 ### Event Logs
 
-![Event Logs](screenshots/06-event-logs.png)
+Displays the most recent Windows System Event Logs for troubleshooting and monitoring.
+
+![Event Logs](06-event-logs.png)
 
 ---
 
