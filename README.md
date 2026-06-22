@@ -116,46 +116,34 @@ Or:
 ## Screenshots
 
 ### System Information
-
 Displays computer details including operating system, CPU, RAM, boot time, and IP address.
 
-![System Information](01-system-information.png)
-
----
+![System Information](screenshots/01-system-information.png)
 
 ### Disk Space
-
 Shows total, used, and free disk space for all drives.
 
-![Disk Space](02-disk-space.png)
-
----
+![Disk Space](screenshots/02-disk-space.png)
 
 ### Running Services
-
 Lists currently running Windows services to assist with troubleshooting.
 
-![Running Services](03-running-services.png)
-
----
+![Running Services](screenshots/03-running-services.png)
 
 ### Network Information
-
 Displays active network adapters and assigned IPv4 addresses.
 
-![Network Information](04-network-information.png)
-
----
+![Network Information](screenshots/04-network-information.png)
 
 ### Windows Updates
-
 Displays recently installed Windows updates and security patches.
 
-![Windows Updates](05-windows-update.png)
-
----
+![Windows Updates](screenshots/05-windows-update.png)
 
 ### Event Logs
+Displays the most recent Windows System Event Logs for troubleshooting and monitoring.
+
+![Event Logs](screenshots/06-event-logs.png)
 
 Displays the most recent Windows System Event Logs for troubleshooting and monitoring.
 
