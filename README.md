@@ -106,18 +106,21 @@ Retrieves:
 ```
 Darwin-PowerShell-Help-Desk-Toolkit
 │
-├── scripts
-│   ├── system-info.ps1
-│   ├── disk-space.ps1
-│   ├── running-services.ps1
-│   ├── network-info.ps1
-│   ├── windows-update.ps1
-│   └── event-logs.ps1
-│
-├── screenshots
-│
 ├── README.md
-└── LICENSE
+├── system-info.ps1
+├── disk-space.ps1
+├── running-services.ps1
+├── network-info.ps1
+├── windows-update.ps1
+├── event-logs.ps1
+│
+└── screenshots
+    ├── 01-system-information.png
+    ├── 02-disk-space.png
+    ├── 03-running-services.png
+    ├── 04-network-information.png
+    ├── 05-windows-updates.png
+    └── 06-event-logs.png
 ```
 
 ---
