@@ -2,125 +2,114 @@
 
 ## Overview
 
-The Darwin PowerShell Help Desk Toolkit is a collection of PowerShell scripts designed to automate common Level 1 Help Desk tasks. These scripts gather system information, check disk usage, monitor services, retrieve network details, and assist technicians with troubleshooting Windows computers.
+The Darwin PowerShell Help Desk Toolkit is a collection of PowerShell scripts designed to automate common Level 1 Help Desk tasks. These scripts gather system information, check disk usage, monitor Windows services, retrieve network details, display installed updates, and review recent Event Logs.
 
-This project demonstrates practical PowerShell scripting skills commonly used in IT Support, Help Desk, and Desktop Support environments.
-
----
-
-## Objectives
-
-- Automate repetitive Help Desk tasks
-- Improve troubleshooting efficiency
-- Collect important system information
-- Generate useful reports for technicians
-- Practice PowerShell administration
+This project demonstrates practical PowerShell scripting skills commonly used in IT Support, Help Desk, Desktop Support, and System Administration roles.
 
 ---
 
-## Skills Demonstrated
+## Features
 
-- PowerShell Scripting
-- Windows Administration
-- System Diagnostics
-- Disk Management
-- Network Troubleshooting
-- Windows Services
-- Automation
-- IT Support
-- Help Desk Operations
+- View system information
+- Check disk space usage
+- List running Windows services
+- Display active network information
+- View recently installed Windows updates
+- Review recent Windows System Event Logs
 
 ---
 
-## Scripts Included
+## Scripts
 
-### System Information
+### system-info.ps1
+
 Displays:
 
 - Computer Name
 - Current User
 - Operating System
 - Windows Version
-- Processor
+- CPU
 - Installed RAM
-- Last Boot Time
-- IP Address
+- System Boot Time
+- IPv4 Addresses
 
 ---
 
-### Disk Space Checker
+### disk-space.ps1
 
 Displays:
 
 - Drive Letter
-- Total Space
-- Free Space
+- Total Disk Space
 - Used Space
-- Percentage Free
+- Free Space
 
 ---
 
-### Running Services
+### running-services.ps1
 
-Lists:
+Displays the first 20 running Windows services, including:
 
-- Running Windows Services
-- Stopped Services
-- Service Status
+- Service Name
+- Display Name
+- Status
 
 ---
 
-### Network Information
+### network-info.ps1
 
 Displays:
 
+- Active Network Adapter
 - IPv4 Address
-- MAC Address
-- Default Gateway
-- DNS Servers
 
 ---
 
-### Windows Update Status
+### windows-update.ps1
 
-Checks:
+Displays recently installed:
 
-- Windows Version
-- Update Status
-- Last Installed Updates
-
----
-
-### Event Log Viewer
-
-Retrieves:
-
-- Recent System Errors
-- Warning Events
-- Critical Events
+- Windows Updates
+- Security Updates
+- HotFix IDs
+- Installation Dates
 
 ---
 
-## Folder Structure
+### event-logs.ps1
 
+Displays the latest Windows System Event Logs including:
+
+- Time Generated
+- Entry Type
+- Source
+- Event ID
+
+---
+
+## Requirements
+
+- Windows 10 or Windows 11
+- PowerShell 5.1 or later
+
+---
+
+## How to Run
+
+Open PowerShell in the project folder and run any script.
+
+Example:
+
+```powershell
+.\system-info.ps1
 ```
-Darwin-PowerShell-Help-Desk-Toolkit
-│
-├── README.md
-├── system-info.ps1
-├── disk-space.ps1
-├── running-services.ps1
-├── network-info.ps1
-├── windows-update.ps1
-├── event-logs.ps1
-│
-└── screenshots
-    ├── 01-system-information.png
-    ├── 02-disk-space.png
-    ├── 03-running-services.png
-    ├── 04-network-information.png
-    ├── 05-windows-updates.png
-    └── 06-event-logs.png
+
+Or:
+
+```powershell
+.\disk-space.ps1
+```
 
 ---
 
@@ -162,7 +151,7 @@ Displays active network adapters and assigned IPv4 addresses.
 
 Displays recently installed Windows updates and security patches.
 
-![Windows Updates](05.windows-update.png)
+![Windows Updates](05-windows-update.png)
 
 ---
 
@@ -174,58 +163,18 @@ Displays the most recent Windows System Event Logs for troubleshooting and monit
 
 ---
 
-## Requirements
+## Skills Demonstrated
 
-- Windows 10 or Windows 11
-- Windows PowerShell 5.1 or newer
-- Visual Studio Code (optional)
-- PowerShell Extension for VS Code
-
----
-
-## How to Run
-
-Open PowerShell inside the project folder and execute:
-
-```powershell
-.\scripts\system-info.ps1
-```
-
-Run other scripts the same way:
-
-```powershell
-.\scripts\disk-space.ps1
-
-.\scripts\running-services.ps1
-
-.\scripts\network-info.ps1
-
-.\scripts\windows-update.ps1
-
-.\scripts\event-logs.ps1
-```
-
----
-
-## Technologies Used
-
-- PowerShell
-- Windows 11
-- Visual Studio Code
-- Windows Management Instrumentation (WMI)
-- CIM Cmdlets
-
----
-
-## Resume Skills
-
-- Help Desk Support
-- Technical Support
-- PowerShell Automation
+- PowerShell Scripting
 - Windows Administration
-- Desktop Support
-- IT Troubleshooting
-- System Diagnostics
+- Windows Services
+- System Information Gathering
+- Disk Management
+- Network Configuration
+- Windows Update Management
+- Windows Event Log Analysis
+- Help Desk Troubleshooting
+- IT Automation
 
 ---
 
